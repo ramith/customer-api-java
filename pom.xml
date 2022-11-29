@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wso2.choreo</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>customer-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Choreo SpringBoot sample</name>
 	<description>Choreo SpringBoot sample</description>

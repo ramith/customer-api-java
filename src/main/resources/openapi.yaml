@@ -1,7 +1,7 @@
 openapi: 3.0.0
 servers:
   - description: Customer API
-    url: http://localhost:8080/customer
+    url: http://localhost:8080
 info:
   description: "CRUD Operations for customer"
   version: "1.0.0"
@@ -17,7 +17,7 @@ tags:
   - name: "demo"
     description: "This api is created for demo purposes"
 paths:
-  /{accountId}:
+  /customer/{accountId}:
     get:
       summary: "Retrieve a customer by id"
       operationId: "getCustomerById"

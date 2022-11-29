@@ -8,4 +8,5 @@ RUN mvn package -Dmaven.test.skip
 RUN echo $JAVA_HOME
 FROM openjdk:17-alpine
 COPY --from=build /usr/app/target/customer-api-1.0.0.jar /app/customer-api-1.0.0.jar
+EXPOSE 8080
 ENTRYPOINT java -jar /app/customer-api-1.0.0.jar

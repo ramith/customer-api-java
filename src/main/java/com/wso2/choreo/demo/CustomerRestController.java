@@ -22,7 +22,7 @@ public class CustomerRestController {
     @GetMapping(path = "/{accountId}")
     public @ResponseBody Customer findCustomerById(@PathVariable("accountId") String accountId) {
 
-        logger.info("finding customer by id", accountId);
+        logger.info("finding customer by id: " + accountId);
 
         Optional<Customer> customerOptional = customerRepository.findById(accountId);
         if (customerOptional.isEmpty()) {

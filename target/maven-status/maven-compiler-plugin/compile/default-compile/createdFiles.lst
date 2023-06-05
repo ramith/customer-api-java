@@ -1,0 +1,4 @@
+com/wso2/choreo/demo/CustomerApi.class
+com/wso2/choreo/demo/repo/CustomerRepository.class
+com/wso2/choreo/demo/CustomerRestController.class
+com/wso2/choreo/demo/model/Customer.class

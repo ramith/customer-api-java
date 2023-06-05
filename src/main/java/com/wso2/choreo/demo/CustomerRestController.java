@@ -29,6 +29,7 @@ public class CustomerRestController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "customer not found");
         } else {
             return customerOptional.get();
+
         }
     }
 
